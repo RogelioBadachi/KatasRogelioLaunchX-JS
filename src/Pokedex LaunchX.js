@@ -56,13 +56,14 @@ const pokeFont = () => {
 }
 const defaultScreen = () => {
     pokemonType.textContent = ' ';
+    pokemonId.textContent = "Nº ";
     pokemonHp.textContent = "Hp: ";
     pokemonAttack.textContent = "Attack: ";
     pokemonDefense.textContent = "Defense: ";
-        pokemonSpecialAttack.textContent = "Special Attack";
-        pokemonSpecialDefense.textContent = "Special Defense";
-        pokemonSpeed.textContent = "Speed: ";
-        PokemonNameLabel.style.backgroundColor = 'rgb(52, 95, 52)';
+    pokemonSpecialAttack.textContent = "Special Attack";
+    pokemonSpecialDefense.textContent = "Special Defense";
+    pokemonSpeed.textContent = "Speed: ";
+    PokemonNameLabel.style.backgroundColor = 'rgb(52, 95, 52)';
 };
 
 const pokeImage = (url) => {
