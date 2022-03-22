@@ -1,0 +1,176 @@
+.pokedex-body {
+    position: absolute;
+    top: 0px;
+    left: 300px;
+    right: 300px;
+    bottom: 0px;
+    background-color: red;
+    border: solid 1px black;
+}
+.dot {
+    height: 12px;
+    width: 12px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    padding: 1rem;
+    margin: 1rem;
+}
+.top-lights {
+    display: flex;
+    flex-direction: row;
+    left: 1rem;
+    position: relative;
+}
+#big-dot {
+    height: 40px;
+    width: 40px;
+    background-color: rgb(0, 247, 255);
+    border-radius: 50%;
+    display: inline-block;
+    border: solid 1px black;
+    box-shadow: -1px 1px 1px 1px white;
+}
+.small-lights {
+    position: absolute;
+    top: 0px;
+    left: 7rem;
+}
+#small-red-light {
+    background-color: rgb(243, 4, 4);
+    border: solid 1px black;
+    box-shadow: -1px 1px 1px 1px white;
+}
+#small-yellow-light {
+    background-color: yellow;
+    border: solid 1px black;
+    box-shadow: -1px 1px 1px 1px white;
+}
+#small-green-light {
+    background-color: rgb(9, 218, 9);
+    border: solid 1px black;
+    box-shadow: -1px 1px 1px 1px white;
+}
+.out-screen {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    /* bring your own prefixes */
+    transform: translate(-50%, -50%);
+    background-color: grey;
+    height: 23.5rem;
+    width: 37rem;
+    border-radius: 10px 10px 0px 0px;
+    border: solid 2px black;
+}
+.in-screen {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    /* bring your own prefixes */
+    transform: translate(-50%, -50%);
+    background-color: rgb(52, 95, 52);
+    border-radius: 15px;
+    height: 22rem;
+    width: 35rem;
+    border: solid 3px black;
+}
+.searchbar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    left: 5rem;
+    bottom: 1rem;
+    position: absolute;
+}
+.stats {
+    font-weight: bold;
+    margin: 0.25rem;
+    font-size: 18px;
+}
+.searchbar input {
+    float: left;
+    display: block;
+    color: black;
+    background-color: yellow;
+    text-align: center;
+    padding: 14px 36px;
+    text-decoration: none;
+    font-size: 17px;
+    border-radius: 10px;
+}
+.searchbar span {
+    bottom: 0.1rem;
+    position: relative;
+    background-color: rgb(240, 4, 4);
+    border: solid 1px black;
+    box-shadow: -1px 3px 5px 1px black;
+    cursor: pointer;
+}
+.searchbar span:hover {
+    background-color: rgb(161, 5, 5);
+}
+.searchbar span:active {
+    background-color: green;
+}
+#pokeImg {
+    height: 150px;
+    width: 150px;
+}
+.pokeNameLabel {
+    position: fixed;
+    top: 15%;
+    left: 50%;
+    /* bring your own prefixes */
+    transform: translate(-50%, -50%);
+    font-size: 3rem;
+    font-weight: bold;
+}
+#pokemonId {
+    position: fixed;
+    top: 27%;
+    left: 50%;
+    /* bring your own prefixes */
+    transform: translate(-50%, -50%);
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+#pokemonType {
+    position: fixed;
+    top: 37%;
+    left: 50%;
+    /* bring your own prefixes */
+    transform: translate(-50%, -50%);
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.pokemon-stats {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    top: 10rem;
+    justify-content: space-between;
+    left: 3rem;
+    width: 80%;
+}
+
+.stats-list {
+    display: flex;
+    flex-direction: column;
+    opacity: 1;
+    justify-content: space-between;
+}
+.left-image {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 300px;
+    height: 617px;
+}
+.right-image {
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 300px;
+    height: 617px;
+}

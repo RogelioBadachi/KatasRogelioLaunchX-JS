@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokedex LaunchX</title>
+    <link rel="stylesheet" href="./src/style.css">
+    <link rel="icon" href="./icon/pokeball.ico">
+</head>
+<body>
+    <div class="landing-page">
+        <img src="./img/pokemon-wallpaper.jpeg" class="left-image" alt="Pokemon-wallpaper">
+        <img src="./img/pokemon-wallpaper.jpeg" class="right-image" alt="Pokemon-wallpaper">
+        <section class="pokedex-body">
+            <div class="top-lights">
+                <span class="dot" id="big-dot"></span>
+                <div class="small-lights">
+                    <span class="dot" id="small-red-light"></span>
+                    <span class="dot" id="small-yellow-light"></span>
+                    <span class="dot" id="small-green-light"></span>
+                </div>
+            </div>
+            <div class="screen">
+                <div class="out-screen">
+                </div>
+                <div class="in-screen">
+                    <span class="pokeNameLabel" id="pokeNameLabel">None</span>
+                    <div class="pokemon">
+                        
+                        <span class="pokemon-id" id="pokemonId">Nº 150</span>
+                        <span class="pokemonType" id="pokemonType"></span>
+                        
+                        <div class="pokemon-stats">
+                            <div class="pokemon-image-container"><img class="pokemon-image" id="pokeImg" src="./img/poke-shadow.png" alt="" style="background: rgb(52, 95, 52);"></div>
+                                <div class="stats-list" >
+                                    <p class="stats" id="health">Hp: </p>
+                                    <span class="stats" id="attack">Attack: </span>
+                                    <span class="stats" id="defense">Defense: </span>
+                                    <span class="stats" id="specialAttack">Special Attack: </span>
+                                    <span class="stats" id="specialDefense">Special Defense: </span>
+                                    <span class="stats" id="speed">Speed: </span>
+                                </div>
+                        </div> <!--Here ends the pokemon stats div-->
+                    </div>
+            </div> <!--Here ends the pokedex's screen-->
+            <div class="decorations">
+
+            </div> <!--Here ends the decorations div-->
+            <div class="searchbar">
+                <input type="text" placeholder="Search Pokemon..." id="pokeName" name="pokeName">
+                <span class="dot" onclick="fetchPokemon()" id="search-dot"></span>
+            </div>
+        </section> <!--Here ends the pokedex body-->
+    </div> <!--Here ends the landing-page div -->
+</body>
+<footer> <script src="./src/Pokedex LaunchX.js"> </script></footer>
+</html>
